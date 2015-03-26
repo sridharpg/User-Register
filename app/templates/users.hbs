@@ -1,0 +1,15 @@
+<div>
+	  <button {{action "addUser"}}>
+        Add User
+    </button>
+	  <h2 id="title">List of Users</h2>
+      {{# each user in model}}
+          {{#link-to 'user' user}}
+              <img alt ="Profile Image" {{bind-attr src=user.profileImage}} class="img-box" ><br><br>
+              {{user.name}}<br><br>
+          {{/link-to}}
+      {{/each}}
+</div>
+<div>
+    {{outlet}}
+</div>

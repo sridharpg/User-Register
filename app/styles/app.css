@@ -1,0 +1,13 @@
+.img-box {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 75px;
+  padding: 2px;
+  vertical-align: middle;
+}
+
